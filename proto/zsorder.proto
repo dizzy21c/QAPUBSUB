@@ -1,0 +1,10 @@
+syntax="proto3";
+
+message zsorder
+{
+    //def Buy(stkCode, vol, price, formulaNum, ZhuShouHao):
+    string code = 1;
+    int32 vol = 2;
+    float price = 3;
+    int32 bsflg = 4;
+};
